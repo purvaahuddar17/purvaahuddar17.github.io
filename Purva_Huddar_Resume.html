@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purva Huddar — Resume | Java Full Stack Developer</title>
+  <style>
+    :root {
+      --primary: #4338ca;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --bg-subtle: #f8fafc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text-main);
+      background-color: #f1f5f9;
+      padding: 30px 15px;
+      line-height: 1.5;
+    }
+    .page {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 18px;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 26px;
+      letter-spacing: -0.5px;
+      color: #0f172a;
+      text-transform: uppercase;
+    }
+    .header .title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
+      margin-top: 4px;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+    .contact-info a { color: var(--primary); text-decoration: none; }
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+      margin-top: 22px;
+      margin-bottom: 10px;
+    }
+    p, li { font-size: 12.5px; color: #334155; }
+    ul { list-style: square; padding-left: 18px; }
+    li { margin-bottom: 5px; }
+    .exp-item { margin-bottom: 16px; }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+    .exp-role { font-weight: 700; font-size: 13.5px; color: #0f172a; }
+    .exp-company { font-weight: 600; color: #475569; font-size: 12.5px; }
+    .exp-period { font-size: 12px; color: #64748b; font-family: monospace; }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .skill-card {
+      background: var(--bg-subtle);
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      font-size: 11.5px;
+    }
+    .skill-card strong { color: #0f172a; display: block; margin-bottom: 2px; }
+    .action-bar {
+      max-width: 820px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+    .btn {
+      padding: 8px 16px;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .btn-secondary {
+      background: #334155;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 20px 0; }
+      .action-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="action-bar">
+    <button class="btn" onclick="window.print()">Print / Save as PDF</button>
+    <a class="btn btn-secondary" href="/">Back to Portfolio</a>
+  </div>
+
+  <div class="page">
+    
+    <div class="header">
+      <h1>PURVA HUDDAR</h1>
+      <div class="title">Java Full Stack Developer | 3+ Years of Experience</div>
+      <div style="font-size: 12px; color: #4338ca; font-weight: 600; margin-top: 4px;">
+        Open to: Java Full Stack Developer | Tech Specialist | Associate Project Manager | Tech Business Analyst
+      </div>
+      <div class="contact-info">
+        <span>Email: <a href="mailto:purvaa.huddar17@gmail.com">purvaa.huddar17@gmail.com</a></span>
+        <span>Phone: +91-9158077405</span>
+        <span>Location: Pune, Maharashtra, India</span>
+        <span>GitHub: <a href="https://github.com/purvaahuddar17" target="_blank">github.com/purvaahuddar17</a></span>
+        <span>LinkedIn: <a href="https://www.linkedin.com/in/purvaa-huddar-fullstackdeveloper/" target="_blank">LinkedIn Profile</a></span>
+      </div>
+    </div>
+
+    <div class="section-title">Professional Summary</div>
+    <p>
+      Results-driven Java Full Stack Developer with 3+ years of hands-on experience designing, developing, and deploying scalable enterprise applications and mission-critical data platforms. Proven expertise in Java, Spring Boot, Vue.js, MySQL, MongoDB, and Redis, with deep specialization in microservices architecture, RESTful API development, batch processing, and distributed caching. Successfully architected an Admission Management System handling 2.5 million+ learner records annually across 500+ centres, demonstrating the ability to deliver high-impact, production-grade solutions at scale. Adept at SQL performance optimization, CI/CD pipeline management, and Agile delivery within fast-paced enterprise environments.
+    </p>
+
+    <div class="section-title">Core Competencies & Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <strong>Backend Development:</strong>
+        Java (Core & Advanced), Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Hibernate/JPA, RESTful Web Services, Microservices Architecture, Batch Processing
+      </div>
+      <div class="skill-card">
+        <strong>Frontend Technologies:</strong>
+        Vue.js (Vue 2 & Vue 3), React, JavaScript (ES6+), PrimeVue, Bootstrap 5, HTML5, CSS3, Responsive UI Design
+      </div>
+      <div class="skill-card">
+        <strong>Database & Caching:</strong>
+        MySQL, MongoDB, Redis, Query Optimization, Indexing Strategies, Database Design, Data Migration, Distributed Locking
+      </div>
+      <div class="skill-card">
+        <strong>DevOps & Cloud:</strong>
+        Git, Maven, Jenkins, Docker, CI/CD Pipelines, Release Automation, AWS Cloud Fundamentals, CDN Integration
+      </div>
+      <div class="skill-card">
+        <strong>Architecture & Design:</strong>
+        OOP, SOLID Principles, Design Patterns, Dependency Injection, API Integration, JSON Processing
+      </div>
+      <div class="skill-card">
+        <strong>Testing & Support:</strong>
+        Postman, Log Analysis, Root Cause Analysis (RCA), Production Support, Incident Resolution, Deployment Management, Agile/Scrum
+      </div>
+    </div>
+
+    <div class="section-title">Professional Experience</div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Java Full Stack Developer</span> — <span class="exp-company">Maharashtra Knowledge Corporation Ltd. (MKCL)</span>
+        </div>
+        <span class="exp-period">Feb 2023 – Present | Pune, India</span>
+      </div>
+      <ul>
+        <li>Engineered and maintained enterprise-grade applications across Admission Management, Examination, Identity Verification, and Support Management platforms using Java, Spring Boot, Vue.js, MySQL, MongoDB, and Redis — collectively serving millions of learners across Maharashtra.</li>
+        <li>Architected a high-throughput Bulk Admission Management System supporting 500+ onboarding centres, capable of processing 100,000+ records per upload cycle, scaling to 2.5 million+ admissions annually during peak enrollment.</li>
+        <li>Designed and developed modular RESTful APIs and backend microservices for end-to-end admission processing, learner profile verification, examination workflows, reducing manual processing time by an estimated 60%.</li>
+        <li>Built a robust Excel-based bulk upload and validation engine with intelligent batch processing, ensuring data integrity for large learner datasets ingested from 5,000+ centres.</li>
+        <li>Implemented Redis distributed caching and distributed locking mechanisms to prevent duplicate record processing, manage concurrent transactions, and improve application response time by ~40%.</li>
+        <li>Developed a secure, auditable learner data migration framework facilitating bulk record transfer across 20+ regional centres, maintaining 100% data consistency.</li>
+        <li>Optimized complex MySQL queries, designed strategic indexing, and streamlined report generation pipelines for large-scale operational and management reporting.</li>
+        <li>Built dynamic, role-based dashboards for Administrators, District Officers, and End Users with configurable access controls (RBAC) using Vue.js and PrimeVue.</li>
+        <li>Managed and maintained CI/CD deployment pipelines using Maven, Jenkins, and Docker — reducing manual release effort by ~50% and enabling zero-downtime releases.</li>
+        <li>Performed rigorous Root Cause Analysis (RCA) and production incident resolution for mission-critical applications, ensuring 99%+ system uptime.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Full Stack Developer Intern</span> — <span class="exp-company">Maharashtra Knowledge Corporation Ltd. (MKCL)</span>
+        </div>
+        <span class="exp-period">2022 – 2023 | Pune, India</span>
+      </div>
+      <ul>
+        <li>Implemented Ticketing System for MKCL ERA LMS using HTML, CSS, JavaScript, Spring Boot, and MySQL.</li>
+        <li>Constructed RESTful API endpoints and assisted with creating responsive front-end components.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <div>
+          <span class="exp-role">Hardware & Electronics Engineer</span> — <span class="exp-company">Various Organisations (Arya Electronics, Elexifab, Smart Tech, Lectrotek)</span>
+        </div>
+        <span class="exp-period">2013 – 2021 | Pune, India</span>
+      </div>
+      <ul>
+        <li>Spearheaded end-to-end IoT product development, PCB design, Zigbee smart meter gateway configuration, and industrial hardware testing across 20+ client projects, managing engineering teams and providing complete deployment support.</li>
+      </ul>
+    </div>
+
+    <div class="section-title">Key Projects</div>
+    <div style="margin-bottom: 10px;">
+      <strong>Bulk Admission Excel Upload System</strong> | <em>Java, Spring Boot, MySQL, Vue.js, Redis</em><br>
+      <span style="font-size: 12px; color: #475569;">
+        Designed and developed a scalable Excel-based learner onboarding framework capable of processing 100,000+ records per cycle, supporting 5,000+ centres and 2.5 million+ annual admissions with built-in validation, error reporting, and batch retry mechanisms.
+      </span>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <strong>Dynamic Document Cropper & Secure Upload System</strong> | <em>Vue.js, Java, Spring Boot</em><br>
+      <span style="font-size: 12px; color: #475569;">
+        Built a feature-rich document capture and upload module enabling real-time photo cropping, aspect-ratio enforcement, quality validation, and secure cloud storage of profile photos — adopted across all 2.5M+ learner profiles.
+      </span>
+    </div>
+
+    <div class="section-title">Education & Certifications</div>
+    <div class="skills-grid">
+      <div>
+        <strong>Education:</strong>
+        <p>• Diploma in New & Exponential Technologies (DNExT) — MKCL (2022)</p>
+        <p>• Bachelor of Engineering (B.E.) in Electronics & Telecommunication — Vidya Pratishthan's Kamalnayan Bajaj Institute of Eng. & Tech, Baramati, Pune University (2008–2013)</p>
+      </div>
+      <div>
+        <strong>Certifications:</strong>
+        <p>• Oracle Certified Professional – MySQL 8.0 Database Developer (Oracle)</p>
+        <p>• AWS Certified Cloud Practitioner (Amazon Web Services)</p>
+        <p>• Spring Framework Fundamentals (Coursera)</p>
+        <p>• Diploma in Embedded System & Design (ICIT / Pune Univ) & PCB Design (Livewire)</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
