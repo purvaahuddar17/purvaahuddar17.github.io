@@ -64,6 +64,9 @@ export const Contact: React.FC = () => {
           </h2>
           <p className="mt-3 text-[var(--text-secondary)] text-sm sm:text-base">
             Open to opportunities as Java Full Stack Developer, Tech Specialist, Associate Project Manager, and Tech Business Analyst.
+            <span className="inline-flex items-center gap-1.5 ml-2 px-2.5 py-0.5 rounded-full text-xs font-semibold border border-[var(--border-card)] bg-[var(--bg-card)]" style={{ color: 'var(--theme-primary)' }}>
+              🌐 Remote · Pan India
+            </span>
           </p>
         </div>
 

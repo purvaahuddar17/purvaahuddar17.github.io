@@ -95,11 +95,13 @@ public class LearnerAdmissionService {
             
             {/* Status Pill & Open For Roles */}
             <div className="space-y-2.5">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[var(--border-card)] bg-[var(--bg-card)] text-xs font-mono text-[var(--text-secondary)] shadow-sm">
+              <div className="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full border border-[var(--border-card)] bg-[var(--bg-card)] text-xs font-mono text-[var(--text-secondary)] shadow-sm">
                 <span className="w-2 h-2 rounded-full animate-ping" style={{ backgroundColor: 'var(--theme-primary)' }}></span>
                 <span className="font-semibold" style={{ color: 'var(--theme-primary)' }}>Open for Opportunities</span>
                 <span className="opacity-40">•</span>
-                <span>Pune, Maharashtra, India</span>
+                <span>Remote</span>
+                <span className="opacity-40">•</span>
+                <span>Pan India</span>
               </div>
 
               {/* Target Roles Badges */}

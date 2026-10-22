@@ -66,6 +66,7 @@ export const PORTFOLIO_DATA = {
       "Associate Project Manager",
       "Tech Business Analyst"
     ],
+    workMode: "Open to Remote · Pan India",
     careerInterests: [
       "Java Full Stack Development",
       "Tech Specialist & Backend Engineering",

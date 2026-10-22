@@ -95,7 +95,7 @@ export const About: React.FC = () => {
               <h4 className="text-xs font-mono uppercase text-[var(--text-secondary)] tracking-wider mb-2.5">
                 Target Roles & Open Opportunities:
               </h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
                 {PORTFOLIO_DATA.profile.openToRoles.map((role) => (
                   <div
                     key={role}
@@ -105,6 +105,13 @@ export const About: React.FC = () => {
                     <span>{role}</span>
                   </div>
                 ))}
+              </div>
+              {/* Work Mode Badge */}
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border-card)] bg-[var(--bg-card)] text-xs font-mono shadow-sm">
+                <span className="w-2 h-2 rounded-full animate-ping" style={{ backgroundColor: 'var(--theme-primary)' }}></span>
+                <span className="font-semibold" style={{ color: 'var(--theme-primary)' }}>Remote</span>
+                <span className="text-[var(--text-secondary)] opacity-60">•</span>
+                <span className="text-[var(--text-secondary)]">Pan India</span>
               </div>
             </div>
 
@@ -180,7 +187,9 @@ export const About: React.FC = () => {
                   <span className="text-[var(--text-secondary)] flex items-center gap-1.5">
                     <MapPin className="w-3.5 h-3.5" style={{ color: 'var(--theme-primary)' }} /> Location
                   </span>
-                  <span className="font-medium text-[var(--text-primary)]">Pune, Maharashtra, India</span>
+                  <span className="font-medium text-[var(--text-primary)] text-right text-xs leading-snug">
+                    Remote · Pan India
+                  </span>
                 </div>
               </div>
             </div>
